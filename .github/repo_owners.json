@@ -1,0 +1,12 @@
+{
+  "ownership": {
+    "type": "Team Specific",
+    "business_unit": "Platforms",
+    "group": "Payment Methods",
+    "sub_group": "Payments Platform",
+    "pod": "Payments Platform",
+    "engineering_manager": {
+      "email": "shobhit.jain@razorpay.com"
+    }
+  }
+}
