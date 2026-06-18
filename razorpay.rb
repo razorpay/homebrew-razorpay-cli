@@ -5,16 +5,16 @@
 class Razorpay < Formula
   desc "Official Razorpay CLI."
   homepage "https://github.com/razorpay/razorpay-cli"
-  version "1.0.8"
+  version "1.0.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://razorpay.com/cli/latest/razorpay_mac-os_arm64.tar.gz"
-      sha256 "af10bc350e8ec7df9d81a52650b5b69dbf234fdeed2a98178dec2aa4435a9257"
+      sha256 "8c289949abb0092d82d6e79cff2e51d919824c18903cc9fdb4a95f453ba77b10"
     else
       url "https://razorpay.com/cli/latest/razorpay_mac-os_x86_64.tar.gz"
-      sha256 "2d0c15dd5c2291462409c0580a9d619509736af079d2ee0007230d7edb1e9f3c"
+      sha256 "0010317489129ccb50b48fb0d69f8332a2088d857efd2854dc7900341892ae33"
     end
   end
 
