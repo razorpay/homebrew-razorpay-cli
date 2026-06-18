@@ -11,10 +11,10 @@ class Razorpay < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://razorpay.com/cli/latest/razorpay_mac-os_arm64.tar.gz"
-      sha256 "8c289949abb0092d82d6e79cff2e51d919824c18903cc9fdb4a95f453ba77b10"
+      sha256 "1b36bec1d7b11dc204c863a336ea1af38ef492fed86c31c9337800459b1827d5"
     else
       url "https://razorpay.com/cli/latest/razorpay_mac-os_x86_64.tar.gz"
-      sha256 "0010317489129ccb50b48fb0d69f8332a2088d857efd2854dc7900341892ae33"
+      sha256 "116b7b44d7ad3a6be6d435ca86fba26ad36d4aef52b629e024daa36fc43b8b27"
     end
   end
 
